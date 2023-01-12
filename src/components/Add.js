@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import { SocketContext } from "../context/SocketContext";
-import RestartButton from "./RestartButton";
 //import { useSocket } from "../hooks/useSocket";
 
 const Add = () => {
@@ -34,7 +33,7 @@ const Add = () => {
           onChange={(e) => setValor(e.target.value)}
         />
       </form>
-      <RestartButton></RestartButton>
+      <button>Reiniciar Votaciones</button>
     </>
   );
 };
